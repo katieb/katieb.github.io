@@ -1,1 +1,107 @@
-hello world
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</head>
+  <body>
+    <div class="lists">
+        <nav>
+            <a class="nav-button active" href="#list-all">
+                <img src="home.png" alt="home avatar" />
+                <h1>All</h1>
+            </a>
+            <a class="nav-button" href="#list-dave">
+                <img src="avatar5.png" alt="dave avatar" />
+                <h1>Dave</h1>
+            </a>
+            <a class="nav-button" href="#list-sue">
+                <img src="avatar1.png" alt="sue avatar" />
+                <h1>Sue</h1>
+            </a>
+            <svg class="nav-add" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 2.5V9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 6H9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </nav>
+        <div class="list" id="list-all">
+            <div class="list-name">
+                <img src="home.png" alt="home avatar" />
+                <h1>All</h1>
+            </div>
+            <div class="list-tasks">
+                <ul>
+                    <li>
+                        <input id="list1-task1" type="checkbox">
+                        <label for="list1-task1" class="task-name">Make bed</label>
+                        <img src="avatar5.png" alt="Dave" />
+                    </li>
+                    <li>
+                        <input id="list1-task2" type="checkbox">
+                        <label for="list1-task2" class="task-name">Clean room</label>
+                        <img src="avatar1.png" alt="Sue" />
+                    </li>
+                    <li class="add-task">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 2.5V9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 6H9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Add a to-do</li>
+                    <li>
+                        <input id="list1-task3" type="checkbox" checked>
+                        <label for="list1-task3" class="task-name">Feed dogs</label>
+                        <img src="avatar5.png" alt="Dave" />
+                    </li>
+                    <li>
+                        <input id="list1-task4" type="checkbox" checked>
+                        <label for="list1-task4" class="task-name">Feed dogs</label>
+                        <img src="avatar1.png" alt="Sue" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list" id="list-dave">
+            <div class="list-name">
+                <img src="avatar5.png" alt="dave avatar" />
+                <h1>Dave</h1>
+            </div>
+            <div class="list-tasks">
+                <ul>
+                    <li>
+                        <input id="list2-task1" type="checkbox">
+                        <label for="list2-task1" class="task-name">Make bed</label>
+                        <img src="avatar5.png" alt="Dave" />
+                    </li>
+                    <li class="add-task">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 2.5V9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 6H9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Add a to-do</li>
+                    <li>
+                        <input id="list2-task2" type="checkbox" checked>
+                        <label for="list2-task2" class="task-name">Feed dogs</label>
+                        <img src="avatar5.png" alt="Dave" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list" id="list-sue">
+            <div class="list-name">
+                <img src="avatar1.png" alt="sue avatar" />
+                <h1>Sue</h1>
+            </div>
+            <div class="list-tasks">
+                <ul>
+                    <li>
+                        <input id="list3-task1" type="checkbox">
+                        <label for="list3-task1" class="task-name">Clean room</label>
+                        <img src="avatar1.png" alt="Sue" />
+                    </li>
+                    <li class="add-task">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 2.5V9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 6H9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Add a to-do</li>
+                    <li>
+                        <input id="list3-task2" type="checkbox" checked>
+                        <label for="list3-task2" class="task-name">Sweep floor</label>
+                        <img src="avatar1.png" alt="Sue" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
